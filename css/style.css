@@ -48,7 +48,7 @@ table {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -178,6 +178,7 @@ table {
   background-color: #1e3932;
   padding: 2em;
   color: #fff;
+  padding: 4em;
 }
 .footer__mobile-box-line {
   height: 1px;
@@ -255,4 +256,24 @@ table {
 }
 .footer__mobile-box-down--item--icon--active {
   color: #006241;
+}
+
+@media (min-width: 768px) {
+  .cards__boxes {
+    padding: 5em;
+  }
+}
+@media (min-width: 1024px) {
+  .cards__boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards__boxes .cards__box {
+    width: 400px;
+    height: 500px;
+    margin-left: 3em;
+  }
 }/*# sourceMappingURL=style.css.map */
