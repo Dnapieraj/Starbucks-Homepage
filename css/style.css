@@ -81,7 +81,7 @@ table {
 }
 .nav-mobile .nav-mobile__box--active .nav-mobile__box--active-box {
   padding-top: 18em;
-  padding-left: 5em;
+  padding-left: 2em;
 }
 .nav-mobile .nav-mobile__box--active .nav-mobile__box--ul {
   color: rgba(0, 0, 0, 0.8705882353);
@@ -96,9 +96,11 @@ table {
   margin-top: 3em;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .nav-mobile .nav-mobile__box--active .langseaitems .search-svg {
   width: 2.2rem;
+  margin-right: 1em;
 }
 .nav-mobile .nav-mobile__box--active .langseaitems .search-a {
   font-size: 1.7rem;
@@ -106,19 +108,68 @@ table {
   font-weight: lighter;
 }
 .nav-mobile .nav-mobile__box--active .langseaitems .lang {
+  width: 100%;
   margin-top: 3em;
   display: flex;
+  align-items: center;
   flex-direction: row;
+  justify-content: space-between;
+}
+.nav-mobile .nav-mobile__box--active .langseaitems .lang-two-items {
+  display: flex;
+  align-items: center;
+}
+.nav-mobile .nav-mobile__box--active .langseaitems .lang svg {
+  width: 2.2rem;
 }
 .nav-mobile .nav-mobile__box--active .langseaitems .lang-svg {
   width: 2.2rem;
-  font-size: 2rem;
   color: #000;
+  margin-right: 1em;
+}
+.nav-mobile .nav-mobile__box--active .langseaitems .lang-svgg {
+  margin-right: 2em;
 }
 .nav-mobile .nav-mobile__box--active .langseaitems .lang-a {
   font-size: 1.7rem;
   color: #000;
   font-weight: lighter;
+}
+.nav-mobile .nav-mobile__box--active .langseaitems .line {
+  height: 2px;
+  width: 100%;
+  background-color: #000;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon {
+  margin-top: 5em;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon .about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon .about .aboutus {
+  font-size: 1.7rem;
+  color: #000;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon .about .aboutsvg {
+  width: 2.2rem;
+  margin-right: 2em;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon .contact .contactus {
+  font-size: 1.7rem;
+  color: #000;
+}
+.nav-mobile .nav-mobile__box--active .aboutcon .contact .contact-svg {
+  width: 2.2rem;
+  margin-right: 2em;
 }
 
 .header {
@@ -343,6 +394,9 @@ table {
 }
 
 @media (min-width: 768px) {
+  .footer__mobile-box-bottom--links {
+    display: none;
+  }
   .cards__boxes {
     display: flex;
     justify-content: center;
@@ -398,7 +452,7 @@ table {
   .footer__mobile-box-bottom--links--768 .footer__mobile-box-bottom--a {
     margin-left: 2em;
   }
-  .footer__mobile-box-bottom--links {
+  .footer__mobile-box .footer__mobile-box-bottom--links {
     display: none;
   }
   .footer__mobile-box-down {
